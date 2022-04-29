@@ -1,0 +1,116 @@
+= Example Service
+Rafal Slowik;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+[[overview]]
+= Overview
+
+[[overview-http-verbs]]
+== HTTP verbs
+
+RESTful notes tries to adhere as closely as possible to standard HTTP and REST conventions in its
+use of HTTP verbs.
+
+|===
+| Verb | Usage
+
+| `GET`
+| Used to retrieve a resource
+
+| `POST`
+| Used to create a new resource
+
+| `PATCH`
+| Used to update an existing resource, including partial updates
+
+| `DELETE`
+| Used to delete an existing resource
+|===
+
+RESTful notes tries to adhere as closely as possible to standard HTTP and REST conventions in its
+use of HTTP status codes.
+
+|===
+| Status code | Usage
+
+| `200 OK`
+| The request completed successfully
+
+| `201 Created`
+| A new resource has been created successfully. The resource's URI is available from the response's
+`Location` header
+
+| `204 No Content`
+| An update to an existing resource has been applied successfully
+
+| `400 Bad Request`
+| The request was malformed. The response body will include an error providing further information
+
+| `404 Not Found`
+| The requested resource did not exist
+|===
+
+[[api]]
+== API
+
+[[get-example]]
+=== GET EXAMPLE
+
+_Showing how to make a request using cURL:_
+include::{snippets}/v1/examples/get/curl-request.adoc[]
+
+_Showing how to make a request using httpie:_
+include::{snippets}/v1/examples/get/httpie-request.adoc[]
+
+_Showing the HTTP request:_
+include::{snippets}/v1/examples/get/http-request.adoc[]
+
+_Showing the HTTP response:_
+include::{snippets}/v1/examples/get/http-response.adoc[]
+
+_Response Body:_
+include::{snippets}/v1/examples/get/response-body.adoc[]
+
+_Response Fields:_
+include::{snippets}/v1/examples/get/response-fields.adoc[]
+
+[[post-example]]
+=== NEW EXAMPLE
+
+_Request Fields:_
+include::{snippets}/v1/examples/post/request-fields.adoc[]
+
+_Showing how to make a request using cURL:_
+include::{snippets}/v1/examples/post/curl-request.adoc[]
+
+_Showing how to make a request using httpie:_
+include::{snippets}/v1/examples/post/httpie-request.adoc[]
+
+_Showing the HTTP request:_
+include::{snippets}/v1/examples/post/http-request.adoc[]
+
+_Showing the HTTP response:_
+include::{snippets}/v1/examples/post/http-response.adoc[]
+
+[[put-example]]
+=== UPDATE EXAMPLE
+
+_Request Fields:_
+include::{snippets}/v1/examples/put/request-fields.adoc[]
+
+_Showing how to make a request using cURL:_
+include::{snippets}/v1/examples/put/curl-request.adoc[]
+
+_Showing how to make a request using httpie:_
+include::{snippets}/v1/examples/put/httpie-request.adoc[]
+
+_Showing the HTTP request:_
+include::{snippets}/v1/examples/put/http-request.adoc[]
+
+_Showing the HTTP response:_
+include::{snippets}/v1/examples/put/http-response.adoc[]
