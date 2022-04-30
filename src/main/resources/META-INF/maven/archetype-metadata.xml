@@ -35,21 +35,9 @@
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>.idea/libraries</directory>
-      <includes>
-        <include>**/*.xml</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
       <directory>.mvn/wrapper</directory>
       <includes>
         <include>**/*.properties</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>.idea</directory>
-      <includes>
-        <include>**/*.xml</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
@@ -62,12 +50,6 @@
       <directory>.circleci</directory>
       <includes>
         <include>**/*.yml</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>.idea</directory>
-      <includes>
-        <include>**/*.gitignore</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
