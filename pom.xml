@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.slowikit</groupId>
-  <artifactId>custom-service-archetype</artifactId>
+  <groupId>com.slowikit.blueprint</groupId>
+  <artifactId>blueprint-service-archetype</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
-  <name>custom-service-archetype</name>
+  <name>blueprint-service-archetype</name>
 
   <build>
     <extensions>
@@ -28,14 +28,11 @@
     </pluginManagement>
   </build>
 
-  <description>custom-service-archetype</description>
+  <description>blueprint-service-archetype</description>
 
   <developers>
     <developer>
-      <name>Pivotal</name>
-      <email>info@pivotal.io</email>
-      <organization>Pivotal Software, Inc.</organization>
-      <organizationUrl>https://www.spring.io</organizationUrl>
+      <name>RSlowik</name>
     </developer>
   </developers>
 
@@ -47,9 +44,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:https://github.com/rafal-slowik/custom-service-archetype.git</connection>
-    <developerConnection>scm:git:https://github.com/rafal-slowik/custom-service-archetype.git</developerConnection>
-    <url>https://github.com/rafal-slowik/custom-service-archetype/tree/master/</url>
+    <connection>scm:git:https://github.com/rafal-slowik/blueprint-service-archetype.git</connection>
+    <developerConnection>scm:git:https://github.com/rafal-slowik/blueprint-service-archetype.git</developerConnection>
+    <url>https://github.com/rafal-slowik/blueprint-service-archetype/tree/master/</url>
     <tag>HEAD</tag>
   </scm>
 

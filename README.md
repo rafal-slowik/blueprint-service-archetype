@@ -1,2 +1,2 @@
-# custom-service-archetype
-custom-service-archetype
+# blueprint-service-archetype
+blueprint-service-archetype
