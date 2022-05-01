@@ -12,18 +12,25 @@ The easiest way to use the archetype is to check it out, install with the local 
 It can be achieved by performing following steps:
 
 1. Checkout the project from github:
-   * ***git clone https://github.com/rafal-slowik/blueprint-service-archetype.git***
+```
+git clone https://github.com/rafal-slowik/blueprint-service-archetype.git
+```
 2. Go to the main directory of the project and install the archetype: 
-   * ***mvn -B -U clean install***
+```
+mvn -B -U clean install
+```
 3. Generate a project from installed archetype:
-   * ***mvn archetype:generate 
-   -DarchetypeGroupId=com.slowikit.blueprint 
-   -DarchetypeArtifactId=blueprint-service-archetype 
-   -DarchetypeVersion=0.0.1-SNAPSHOT 
-   -DgroupId=com.slowikit 
-   -DartifactId=myservice 
-   -Dversion=0.0.1-SNAPSHOT 
-   -Dpackage=com.slowikit.myservice***
+
+```
+mvn archetype:generate \
+-DarchetypeGroupId=com.slowikit.blueprint \
+-DarchetypeArtifactId=blueprint-service-archetype \
+-DarchetypeVersion=0.0.1-SNAPSHOT \
+-DgroupId=com.slowikit \
+-DartifactId=myservice \
+-Dversion=0.0.1-SNAPSHOT \
+-Dpackage=com.slowikit.myservice
+```
 
 The properties ***DgroupId, DartifactId, Dversion, Dpackage*** can be freely adjusted to the needs of the project.
 
