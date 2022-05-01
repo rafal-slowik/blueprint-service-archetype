@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 import java.util.UUID;
 
 /**
- * Created by rslowik on 27/04/2022.
+ * Created by rslowik on $currentDate.
  */
 @Slf4j
 @Service

@@ -14,7 +14,7 @@ import java.sql.Timestamp;
 import java.util.UUID;
 
 /**
- * Created by rslowik on 22/04/2022.
+ * Created by rslowik on $currentDate.
  */
 @Getter
 @Setter

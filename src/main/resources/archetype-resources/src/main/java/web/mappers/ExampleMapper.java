@@ -8,7 +8,7 @@ import ${package}.web.model.ExampleDto;
 import org.mapstruct.Mapper;
 
 /**
- * Created by rslowik on 27/04/2022.
+ * Created by rslowik on $currentDate.
  */
 @Mapper(uses = DateMapper.class)
 public interface ExampleMapper {

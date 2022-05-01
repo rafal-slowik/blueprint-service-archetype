@@ -16,7 +16,7 @@ import org.zalando.problem.jackson.ProblemModule;
 import org.zalando.problem.violations.ConstraintViolationProblemModule;
 
 /**
- * Created by rslowik on 27/04/2022.
+ * Created by rslowik on $currentDate.
  */
 @Configuration
 public class JsonMapperConfiguration {

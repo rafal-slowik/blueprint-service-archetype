@@ -42,7 +42,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 /**
- * Created by rslowik on 22/04/2022.
+ * Created by rslowik on $currentDate.
  */
 
 @ExtendWith({RestDocumentationExtension.class, MockitoExtension.class})

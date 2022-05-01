@@ -29,7 +29,7 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.*;
 
 /**
- * Created by rslowik on 28/04/2022.
+ * Created by rslowik on $currentDate.
  */
 @ExtendWith(MockitoExtension.class)
 @SpringBootTest

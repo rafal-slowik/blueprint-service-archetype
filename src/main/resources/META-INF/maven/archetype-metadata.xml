@@ -52,16 +52,26 @@
         <include>**/*.yml</include>
       </includes>
     </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>README.md</include>
+      </includes>
+    </fileSet>
     <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
         <include>mvnw.cmd</include>
         <include>Dockerfile</include>
         <include>HELP.md</include>
-        <include>README.md</include>
         <include>.gitignore</include>
         <include>mvnw</include>
       </includes>
     </fileSet>
   </fileSets>
+  <requiredProperties>
+    <requiredProperty key="currentDate">
+      <defaultValue>${package.getClass().forName("java.time.LocalDate").getMethod("now").invoke(null).toString()}</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 </archetype-descriptor>

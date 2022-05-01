@@ -3,18 +3,13 @@
 #set( $symbol_escape = '\' )
 package ${package}.bootstrap;
 
-import ${package}.domain.Example;
-import ${package}.repositories.ExampleRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
-import java.math.BigDecimal;
-import java.util.Set;
-
 /**
- * Created by rslowik on 22/04/2022.
+ * Created by rslowik on $currentDate.
  */
 @Slf4j
 @Component

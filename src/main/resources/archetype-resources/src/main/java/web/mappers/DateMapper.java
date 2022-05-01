@@ -10,7 +10,7 @@ import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 
 /**
- * Created by rslowik on 27/04/2022.
+ * Created by rslowik on $currentDate.
  */
 @Component
 public class DateMapper {

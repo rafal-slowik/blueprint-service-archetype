@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 /**
- * Created by rslowik on 22/04/2022.
+ * Created by rslowik on $currentDate.
  */
 @Repository
 public interface ExampleRepository extends PagingAndSortingRepository<Example, UUID> {

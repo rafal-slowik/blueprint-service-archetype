@@ -8,7 +8,7 @@ import ${package}.web.model.ExampleDto;
 import java.util.UUID;
 
 /**
- * Created by rslowik on 27/04/2022.
+ * Created by rslowik on $currentDate.
  */
 public interface ExampleService {
 

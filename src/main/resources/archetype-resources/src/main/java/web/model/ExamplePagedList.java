@@ -9,7 +9,7 @@ import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 /**
- * Created by rslowik on 22/04/2022.
+ * Created by rslowik on $currentDate.
  */
 public class ExamplePagedList extends PageImpl<ExampleDto> {
 

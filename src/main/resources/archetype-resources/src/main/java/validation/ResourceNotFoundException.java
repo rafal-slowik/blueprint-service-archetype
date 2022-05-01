@@ -4,7 +4,7 @@
 package ${package}.validation;
 
 /**
- * Created by rslowik on 28/04/2022.
+ * Created by rslowik on $currentDate.
  */
 public class ResourceNotFoundException extends RuntimeException {
 
